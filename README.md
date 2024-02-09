@@ -1,3 +1,3 @@
-# PodFlare API
+# Telegram Helper
 
 > No details right now.
