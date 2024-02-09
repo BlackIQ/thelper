@@ -18,6 +18,8 @@ export const SEND = async (req, res) => {
 
     return res.status(200).send(response.data);
   } catch (error) {
+    console.log(error.message);
+
     return res.status(500).send({ error: error.response.data.message });
   }
 };
